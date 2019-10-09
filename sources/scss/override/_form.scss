@@ -26,10 +26,10 @@ textarea.form-control {
 
 .custom-file,
 .custom-file-label,
-.custom-select,
+.custom-select:not(.custom-select-sm),
 .custom-file-label:after,
 .form-control[type="color"],
-select.form-control:not([size]):not([multiple]) {
+select.form-control:not([size]):not([multiple]):not(.form-control-sm) {
   height: calc(2.25rem + 6px);
 }
 
